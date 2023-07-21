@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+body {
+  background-color: rgb(213, 213, 213);
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  font-family: "Fredoka", sans-serif;
+}
+.container {
+  max-width: 500px;
+  min-height: 550px;
+  margin-top: 40px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 2rem 2rem 4rem 2rem; */
+  padding: 2.6rem;
+  margin-inline: auto;
+  background-color: rgb(39, 127, 205);
+}
+.heading1 {
+  margin-top: 0;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+img {
+  width: 48px;
+  aspect-ratio: 1;
+}
+.btn {
+  border-radius: 100vh;
+  padding: 2em;
+  background: transparent;
+  border: 4px solid white;
+  margin: 7px;
+  margin-left: 0;
+  cursor: pointer;
+  /* position: relative;
+  overflow: hidden; */
+  transition: transform 0.1s ease-in, background-color 0.1s ease-in;
+}
+.btn:hover {
+  background-color: rgb(0, 45, 82);
+  transform: scale(1.1);
+}
+.result {
+  text-align: center;
+  font-size: 2rem;
+  /* width: 5rem; */
+  font-weight: bold;
+  font-style: italic;
+  filter: drop-shadow(0 0 18px rgb(0, 45, 82));
+  /* border-radius: 10px; */
+  /* background-color: rgb(0, 45, 82); */
+  /* padding: 0.3em 0.2em; */
+  /* box-shadow: 0 0 10px 2px white; */
+}
+.moves {
+  font-size: 1.5rem;
+  padding-left: 72px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.score {
+  margin-top: 60px;
+  font-size: 1.2rem;
+}
+.reset-btn {
+  background-color: rgb(254, 254, 254);
+  border: none;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.6em 1.2em;
+  cursor: pointer;
+  letter-spacing: 1px;
+  /* width: 6em; */
+}
+.reset-btn:hover {
+  background-color: rgb(220, 33, 104);
+  color: white;
+}
+.move-left,
+.move-right {
+  padding-inline: 4px;
+}
